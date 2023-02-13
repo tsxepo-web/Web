@@ -8,7 +8,8 @@ namespace ApplicationCore.Entities
     public class User
     {
         public int Id {get; set;}
-        public string? Name {get; set;}
-        public DateTime Date {get; set;}
+        public string? statusMessage {get; set;}
+        public string? internetServiceProvider {get; set;}
+        public string? IpAddress {get; set;}
     }
 }

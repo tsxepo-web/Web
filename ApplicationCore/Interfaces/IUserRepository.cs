@@ -9,9 +9,8 @@ namespace ApplicationCore.Interfaces
     public interface IUserRepository
     {
         Task<IEnumerable<User>> GetUsersAsync();
-        Task<User> GetByIdAsync();
         Task CreateUserAsync(User user);
-        Task DeleteUserAsync(int Id);
+        Task DeleteUserAsync(User user);
 
     }
 }
