@@ -10,6 +10,7 @@ namespace ApplicationCore.Entities
         public int Id {get; set;}
         public string? statusMessage {get; set;}
         public string? internetServiceProvider {get; set;}
-        public string? IpAddress {get; set;}
+        public string? ipAddress {get; set;}
+        public double speed {get; set;}
     }
 }
