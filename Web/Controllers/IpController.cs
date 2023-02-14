@@ -30,15 +30,14 @@ namespace Web.Controllers
         [HttpPost]
         public async Task<IActionResult> CreateUser(User user)
         {
-            await _context.CreateUserAsync(user);
             var ip =  await _ipRepository.GetIpResultsAsync();
-            if (user != null)
+            if(user != null)
             {
-                user.internetServiceProvider = ip.internetServiceProvider;
-                user.IpAddress = ip.IpAddress;
-                user.statusMessage = ip.statusMessage;
+            user.internetServiceProvider = ip.internetServiceProvider;
+            user.IpAddress = ip.IpAddress;
+            user.statusMessage = ip.statusMessage;
+            await _context.CreateUserAsync(user);
             }
-
             return NoContent();
         }
     }
