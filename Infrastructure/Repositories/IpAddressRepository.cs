@@ -26,8 +26,8 @@ namespace Infrastructure.Repositories
             var ipResponse = JsonConvert.DeserializeObject<IpResponse>(jsonRespose);
             if(ipResponse != null)
             {
-                ipResults.statusMessage = ipResponse.status;
-                ipResults.internetServiceProvider = ipResponse.isp;
+                ipResults.StatusMessage = ipResponse.status;
+                ipResults.InternetServiceProvider = ipResponse.isp;
                 ipResults.IpAddress = ipResponse.query;
             }
             return ipResults;

@@ -9,8 +9,8 @@ namespace ApplicationCore.DTO
     public class ResultsObject
     {
 
-        public string? statusMessage { get; set; }
-        public string? internetServiceProvider { get; set; }
+        public string? StatusMessage { get; set; }
+        public string? InternetServiceProvider { get; set; }
         public string? IpAddress { get; set; }
     }
 }

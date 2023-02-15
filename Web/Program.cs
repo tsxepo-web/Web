@@ -9,6 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddHttpClient();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IIpAddressRepository, IpAddressRepository>();
+builder.Services.AddScoped<ISpeedTestRepository, SpeedTestRepository>();
 builder.Services.AddDbContext<SpeedTestContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("SpeedTestContext")));
 

@@ -14,11 +14,13 @@ namespace Web.Controllers
     {
         private readonly IUserRepository _context;
         private readonly IIpAddressRepository _ipRepository;
+        private readonly ISpeedTestRepository _speedTestRepository;
 
-        public IpController(IUserRepository context, IIpAddressRepository ipRepository)
+        public IpController(IUserRepository context, IIpAddressRepository ipRepository, ISpeedTestRepository speedTestRepository)
         {
             _context = context;
             _ipRepository = ipRepository;
+            _speedTestRepository = speedTestRepository;
         }
 
         [HttpGet]
@@ -30,12 +32,14 @@ namespace Web.Controllers
         [HttpPost]
         public async Task<IActionResult> CreateUser(User user)
         {
+            var kbsec = await _speedTestRepository.CheckSpeed();
             var ip =  await _ipRepository.GetIpResultsAsync();
             if(user != null)
             {
-            user.internetServiceProvider = ip.internetServiceProvider;
-            user.IpAddress = ip.IpAddress;
-            user.statusMessage = ip.statusMessage;
+            user.internetServiceProvider = ip.InternetServiceProvider;
+            user.ipAddress = ip.IpAddress;
+            user.statusMessage = ip.StatusMessage;
+            user.speed = kbsec;
             await _context.CreateUserAsync(user);
             }
             return NoContent();

@@ -29,11 +29,14 @@ namespace Infrastructure.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("IpAddress")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("internetServiceProvider")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ipAddress")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<double>("speed")
+                        .HasColumnType("float");
 
                     b.Property<string>("statusMessage")
                         .HasColumnType("nvarchar(max)");

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tsxepo\\source\\repos\\Web\\ApplicationCore\\ApplicationCore.csproj": {}
+    "c:\\Users\\tsxepo\\source\\repos\\Web\\ApplicationCore\\ApplicationCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tsxepo\\source\\repos\\Web\\ApplicationCore\\ApplicationCore.csproj": {
+    "c:\\Users\\tsxepo\\source\\repos\\Web\\ApplicationCore\\ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tsxepo\\source\\repos\\Web\\ApplicationCore\\ApplicationCore.csproj",
+        "projectUniqueName": "c:\\Users\\tsxepo\\source\\repos\\Web\\ApplicationCore\\ApplicationCore.csproj",
         "projectName": "ApplicationCore",
-        "projectPath": "C:\\Users\\tsxepo\\source\\repos\\Web\\ApplicationCore\\ApplicationCore.csproj",
+        "projectPath": "c:\\Users\\tsxepo\\source\\repos\\Web\\ApplicationCore\\ApplicationCore.csproj",
         "packagesPath": "C:\\Users\\tsxepo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tsxepo\\source\\repos\\Web\\ApplicationCore\\obj\\",
+        "outputPath": "c:\\Users\\tsxepo\\source\\repos\\Web\\ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tsxepo\\AppData\\Roaming\\NuGet\\NuGet.Config",
