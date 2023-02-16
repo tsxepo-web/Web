@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OeUgYSNNS056JLf472CG1is3ylcKUs+dZZgbavQduX2+QunWeF0rpGdLL56xcAVH1YFfZeGqlLGV+UPAe3bTnw==",
+  "dgSpecHash": "SuW92+TyzmeM3lZHzsYMMxpGid7iex4hmnIq2mfYlYWk/IRJLGlz2OQDOk7E19KZ5yuHtZSMnPRJT5EKfMMRzA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\tsxepo\\source\\repos\\Web\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\tsxepo\\source\\repos\\Web\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tsxepo\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\tsxepo\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

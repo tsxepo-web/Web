@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\tsxepo\\source\\repos\\Web\\Web\\Web.csproj": {}
+    "C:\\Users\\tsxepo\\source\\repos\\Web\\Web\\Web.csproj": {}
   },
   "projects": {
-    "c:\\Users\\tsxepo\\source\\repos\\Web\\ApplicationCore\\ApplicationCore.csproj": {
+    "C:\\Users\\tsxepo\\source\\repos\\Web\\ApplicationCore\\ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\tsxepo\\source\\repos\\Web\\ApplicationCore\\ApplicationCore.csproj",
+        "projectUniqueName": "C:\\Users\\tsxepo\\source\\repos\\Web\\ApplicationCore\\ApplicationCore.csproj",
         "projectName": "ApplicationCore",
-        "projectPath": "c:\\Users\\tsxepo\\source\\repos\\Web\\ApplicationCore\\ApplicationCore.csproj",
+        "projectPath": "C:\\Users\\tsxepo\\source\\repos\\Web\\ApplicationCore\\ApplicationCore.csproj",
         "packagesPath": "C:\\Users\\tsxepo\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\tsxepo\\source\\repos\\Web\\ApplicationCore\\obj\\",
+        "outputPath": "C:\\Users\\tsxepo\\source\\repos\\Web\\ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tsxepo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,14 +59,14 @@
         }
       }
     },
-    "c:\\Users\\tsxepo\\source\\repos\\Web\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\tsxepo\\source\\repos\\Web\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\tsxepo\\source\\repos\\Web\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\tsxepo\\source\\repos\\Web\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "c:\\Users\\tsxepo\\source\\repos\\Web\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Users\\tsxepo\\source\\repos\\Web\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\tsxepo\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\tsxepo\\source\\repos\\Web\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\tsxepo\\source\\repos\\Web\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tsxepo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,8 +83,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\tsxepo\\source\\repos\\Web\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "c:\\Users\\tsxepo\\source\\repos\\Web\\ApplicationCore\\ApplicationCore.csproj"
+              "C:\\Users\\tsxepo\\source\\repos\\Web\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "C:\\Users\\tsxepo\\source\\repos\\Web\\ApplicationCore\\ApplicationCore.csproj"
               }
             }
           }
@@ -148,14 +148,14 @@
         }
       }
     },
-    "c:\\Users\\tsxepo\\source\\repos\\Web\\Web\\Web.csproj": {
+    "C:\\Users\\tsxepo\\source\\repos\\Web\\Web\\Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\tsxepo\\source\\repos\\Web\\Web\\Web.csproj",
+        "projectUniqueName": "C:\\Users\\tsxepo\\source\\repos\\Web\\Web\\Web.csproj",
         "projectName": "Web",
-        "projectPath": "c:\\Users\\tsxepo\\source\\repos\\Web\\Web\\Web.csproj",
+        "projectPath": "C:\\Users\\tsxepo\\source\\repos\\Web\\Web\\Web.csproj",
         "packagesPath": "C:\\Users\\tsxepo\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\tsxepo\\source\\repos\\Web\\Web\\obj\\",
+        "outputPath": "C:\\Users\\tsxepo\\source\\repos\\Web\\Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tsxepo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -172,8 +172,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\tsxepo\\source\\repos\\Web\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "c:\\Users\\tsxepo\\source\\repos\\Web\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\tsxepo\\source\\repos\\Web\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\tsxepo\\source\\repos\\Web\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -188,14 +188,6 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Http.Features": {
-              "target": "Package",
-              "version": "[5.0.17, )"
-            },
-            "Microsoft.AspNetCore.Mvc.Core": {
-              "target": "Package",
-              "version": "[2.2.5, )"
-            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.2, )"
